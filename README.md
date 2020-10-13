@@ -52,13 +52,13 @@ This site is gonna be a news site about cat's
   
 
 
-## Critères d'évaluation 
-| Critère              | Indicateur                                   | Oui/Non |
+## Evaluation Criterias 
+| Criteria             | Indicator                                    | Oui/Non |
 | -------------------- | -------------------------------------------- | ------- |
-| C'est complet quand: | Toutes les fonctionnalitées fonctionnent.    |         |
-|                      | Le front est propre                          |         |
-|                      | Le site est responsive                       |         |
-|                      | Le projet est codé selon les règles de l'OOP |         |
-|                      | Le readme contient les éléments demandés     |         |
-|                      | Le projet à été présenté au groupe           |         |
+| It's complete when:  | all fonctionnalities work.                   |         |
+|                      | the front is clean                           |         |
+|                      | The site is responsive                       |         |
+|                      | Is code in OOP rules                         |         |
+|                      | the readme has all the asked elements        |         |
+|                      | The project has been presented to the groupe |         |
 
