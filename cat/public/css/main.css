@@ -7,6 +7,9 @@
 	templated.co @templatedco
 	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
 */
+.title {
+  text-align: center;
+}
 
 /* Reset */
 
@@ -3262,7 +3265,7 @@ button.alt:active,
 }
 
 .wrapper.style2 {
-  background-color: #1e2832;
+  background-color: #777777;
   color: rgba(255, 255, 255, 0.75);
 }
 
@@ -4279,7 +4282,7 @@ body.landing {
 /* Footer */
 
 #footer {
-  background-color: #1e2832;
+  background-color: #777777;
   color: rgba(255, 255, 255, 0.75);
   text-align: center;
 }

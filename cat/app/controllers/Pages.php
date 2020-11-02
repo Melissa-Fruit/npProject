@@ -3,12 +3,24 @@
     public function __construct(){
      
     }
+    public function index0(){
+     //  If logged in, redirect to posts
+     if(isset($_SESSION['user_id'])){
+       redirect('pages/index');
+      }else{
+        redirect('pages/index');
+      }
 
+      
+
+      // Load homepage/index view
+      $this->view('pages/index', $data);
+    }
     // Load Homepage
     public function index(){
       // If logged in, redirect to posts
       if(isset($_SESSION['user_id'])){
-        redirect('posts');
+        redirect('/posts');
       }
 
       //Set Data

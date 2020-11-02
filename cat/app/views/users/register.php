@@ -33,10 +33,17 @@
           </div>
           <div class="col">
             <a href="<?php echo URLROOT; ?>/users/login" class="btn btn-light btn-block">Have an account? Login</a>
+            <div class="col">
+            <div id="space"></div>
+                <a href="requestReset.php">Forgot password?</a>
+            </div>
+            </div>
           </div>
         </div>
       </form>
     </div>
+    </div>
+  </div>
   </div>
   
-<?php require APPROOT . '/views/inc/footer.php'; ?>
+  <?php require APPROOT . '/views/inc/footer.php'; ?>

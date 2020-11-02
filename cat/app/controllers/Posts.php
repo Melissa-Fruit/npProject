@@ -10,14 +10,14 @@
     }
 
     // Load All Posts
-    public function index(){
+    public function index0(){
       $posts = $this->postModel->getPosts();
 
       $data = [
         'posts' => $posts
       ];
       
-      $this->view('posts/index', $data);
+      $this->view('/posts/index', $data);
     }
 
     // Show Single Post
@@ -30,7 +30,7 @@
         'user' => $user
       ];
 
-      $this->view('posts/show', $data);
+      $this->view('/posts/show', $data);
     }
 
     // Add Post
@@ -63,13 +63,13 @@
           if($this->postModel->addPost($data)){
             // Redirect to login
             flash('post_added', 'Post Added');
-            redirect('posts');
+            redirect('/posts');
           } else {
             die('Something went wrong');
           }
         } else {
           // Load view with errors
-          $this->view('posts/add', $data);
+          $this->view('/posts/add', $data);
         }
 
       } else {
@@ -78,7 +78,7 @@
           'body' => '',
         ];
 
-        $this->view('posts/add', $data);
+        $this->view('/posts/add', $data);
       }
     }
 
@@ -113,13 +113,13 @@
           if($this->postModel->updatePost($data)){
           // Redirect to login
           flash('post_message', 'Post Updated');
-          redirect('posts');
+          redirect('/posts');
           } else {
             die('Something went wrong');
           }
         } else {
           // Load view with errors
-          $this->view('posts/edit', $data);
+          $this->view('/posts/edit', $data);
         }
 
       } else {
@@ -128,7 +128,7 @@
 
         // Check for owner
         if($post->user_id != $_SESSION['user_id']){
-          redirect('posts');
+          redirect('/posts');
         }
 
         $data = [
@@ -137,7 +137,7 @@
           'body' => $post->body,
         ];
 
-        $this->view('posts/edit', $data);
+        $this->view('/posts/edit', $data);
       }
     }
 
@@ -148,12 +148,12 @@
         if($this->postModel->deletePost($id)){
           // Redirect to login
           flash('post_message', 'Post Removed');
-          redirect('posts');
+          redirect('/posts');
           } else {
             die('Something went wrong');
           }
       } else {
-        redirect('posts');
+        redirect('/posts');
       }
     }
   }
