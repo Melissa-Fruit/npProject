@@ -35,7 +35,8 @@
             <a href="<?php echo URLROOT; ?>/users/login" class="btn btn-light btn-block">Have an account? Login</a>
             <div class="col">
             <div id="space"></div>
-                <a href="requestReset.php">Forgot password?</a>
+            <a href="<?php echo URLROOT; ?>/users/request" class="btn btn-light btn-block">Lost password?</a>
+            <img id ="images" src="../public/css/images/miniCat.jpg" alt="" />
             </div>
             </div>
           </div>

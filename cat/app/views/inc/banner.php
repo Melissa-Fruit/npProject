@@ -1,10 +1,11 @@
 
  <!-- Banner -->
- <section id="banner">
-				
-				<h1>Le site des News concernant les CHAT</h1>
-				<p>Magna feugiat lorem dolor egestas</p>
+<section id="banner">
+ 			
+				<h1>CatNews</h1>
+				<p>Social sharing App to talk about Cat's !!!</p>
+				<!--
 				<ul class="actions">
 					<li><a href="#" class="button big special">Learn More</a></li>
-				</ul>
+				</ul> -->
 			</section>

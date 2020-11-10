@@ -81,7 +81,6 @@ details,
 embed,
 figure,
 figcaption,
-footer,
 header,
 hgroup,
 menu,
@@ -156,7 +155,9 @@ body {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
-
+#footer {
+  padding-top: 50px;
+}
 /* Containers */
 
 .container {
@@ -3511,7 +3512,7 @@ button.alt:active,
   background-color: #1e2832;
   color: rgba(255, 255, 255, 0.75);
   background-attachment: fixed;
-  background-image: url("images/overlay.png"), url("../../images/pic11.jpg");
+  background-image: url("images/overlay.png"), url("images/banner1.jpg");
   background-size: cover;
 }
 
@@ -3787,18 +3788,11 @@ button.alt:active,
 
 /* Header */
 
-body {
-  padding-top: 3.125em;
-}
-
 body.landing {
   padding-top: 0;
 }
 
 @media screen and (max-width: 980px) {
-  body {
-    padding-top: 44px;
-  }
 }
 
 #header {
@@ -3885,10 +3879,6 @@ body.landing {
 }
 
 @media screen and (max-width: 980px) {
-  body {
-    padding-top: 44px;
-  }
-
   #header {
     height: 44px;
     line-height: 44px;
@@ -3920,7 +3910,13 @@ body.landing {
     padding: 0.5em 1em;
   }
 }
-
+/*API Weather*/
+.report-container {
+  text-align: center;
+}
+#id > img {
+  width: 10%;
+}
 /* Nav */
 
 #nav {
@@ -4282,7 +4278,7 @@ body.landing {
 /* Footer */
 
 #footer {
-  background-color: #777777;
+  background-color: #292b2c;
   color: rgba(255, 255, 255, 0.75);
   text-align: center;
 }

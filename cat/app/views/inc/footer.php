@@ -1,10 +1,14 @@
 <!-- Footer -->
+
 <footer id="footer">
 <div class="container-fluid">
+<h5>Let's see of it's weather to let us cat walk outside.</h5>
+<?php require APPROOT . '/views/inc/weatherApi.php'; ?>	
+
 				<div class="inner">
-                <img src="../public/css/images/cat2.jpg" alt="" />
+                
 					<ul class="icons">
-					
+					    				
 						<li><a href=https://github.com/Melissa-Fruit" class="icon fa fa-github">
 							<span class="label">Github</span>
 						</a></li>

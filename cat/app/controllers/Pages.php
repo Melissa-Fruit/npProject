@@ -42,4 +42,7 @@
       // Load about view
       $this->view('pages/about', $data);
     }
+   
+   
+    
   }
