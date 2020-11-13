@@ -1,56 +1,93 @@
 # npProject
+BeCode's npProject
+
 
 -duration : 4 weeks
 
 - Déploiement :
-  - Github page
-  - Heroku
-  - Heroku + remote DBA
+  
   - self-hosting
   - ...
+  
 - Team challenge : `solo`
+
+
+## Used languages in MVC structure :
+* HTML5
+* CCS3
+* PHP OOP
+* Bootstrap 4 UI
+* PHP mailer
+
 
 ## Objectifs
 
-Créate a realistic ptoject in 1 month
+Créate a realistic project in 1 month
 
 ## The Mission
 
 ### thème :
 
-- News portal
+- News portal :CATNEWS
+
+
+SOCIAL SHARING APP TO TALK ABOUT CAT'S!!!
 
 This site is gonna be a news site about cat's
 
-- Créte a public repo
-- Défine the project
-- Mockup of the site
-- graphic chart : coulors/ typo / éléments : (navBar, aside, footer...))
-- Data details (défine the elements for the database (dynamique) and for the site (HTML purement statique)
-- Diagram of the database
+It's a complete custom MVC (Model View Controller) framework similar to Codeigniter but much much lighter based on the Udemy course : [Object Oriented PHP & MVC](https://www.udemy.com/course/object-oriented-php-mvc/)
+
+- A core library class to load controllers & methods from the URL (Also using .htaccess)
+- A base controller class to load models and views
+- A custom database library using PDO for all models to interact with the database using prepared statements
+
+
+On top of this mini framework I build CatNews: a social network to share posts about cats. This application includes:
+
+- Full user authentication
+- Access control for posts
+- Server side form validation
+- Posts CRUD
+- Helper functions (flash messaging & redirects)
+- Lost password with PHP mailer
 
 ### Technologie
 
-**Back :** PHP POO
-**Front :** Bootstrap
+**Back :
 
-### To have :
+- PHP OOP
+- MYSQL
 
-- Sessions system : register, login / logout / lost password / several privileges
-- Interactions (ex: comment, newsletter,.....)
-- Use one API
+**Front :
+
+- Bootstrap 4 UI 
+- [parts of the retrospect template](https://templated.co/retrospect/)
+
+## Api
+
+- [OpenWeatherMap with PHP](https://phppot.com/php/forecast-weather-using-openweathermap-with-php/)
+- [Mailchimp](https://mailchimp.com/)
+
+  -Integrate a newsletter with Mailchimp.
+  
+  -Integrate a image galery with Mailchimp.
+
 
 ## Présentation (16 novembre)
 
 ## Ressources
 
+- [W3schools](https://www.w3schools.com/)
+- [PHP Documentation](https://www.php.net/docs.php)
+- [Object Oriented PHP & MVC](https://www.udemy.com/course/object-oriented-php-mvc/)
+
+
 ## Evaluation Criterias
 
 | Criteria            | Indicator                                    | Yes/No  |
 | ------------------- | -------------------------------------------- | ------- |
-| It's complete when: | all fonctionnalities work.                   |         |
-|                     | the front is clean                           |         |
-|                     | The site is responsive                       |         |
-|                     | Is code in OOP rules                         |         |
-|                     | the readme has all the asked elements        |         |
-|                     | The project has been presented to the groupe |         |
+| It's complete when: | all fonctionnalities work.                   |   yes   |
+|                     | the front is clean                           |   yes   |
+|                     | The site is responsive                       |   yes   |
+|                     | Is code in OOP rules                         |   yes   |
+
