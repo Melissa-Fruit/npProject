@@ -1,7 +1,9 @@
 <?php
   class Users extends Controller{
     public function __construct(){
+      $this->userModel = $this->model('Email');
       $this->userModel = $this->model('User');
+      
     }
 
     public function index(){
@@ -238,7 +240,12 @@
       // Check and set logged in user
       
       if($this->userModel->request($data)){
-        redirect('users/ressetpass');
+       // redirect('users/ressetpass');
+      
+     	$send = new Email();
+				$send->sendMail($data['email']);
+        $this->view('users/login', $data);
+      
       }
       else {
         die('something went wrong');
@@ -367,3 +374,4 @@
   
     }
   }
+

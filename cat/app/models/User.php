@@ -89,7 +89,7 @@
       // Bind Values
       $this->db->bind(':email', $data['email']);
      // $this->db->bind(':code', $code);
-      
+     
       //Execute
       if($this->db->execute()){
         return true;
