@@ -8,7 +8,7 @@
   // App Root
   define('APPROOT', dirname(dirname(__FILE__)));
   // URL Root
-  define('URLROOT', 'http://localhost/cat');
+  define('URLROOT', 'http://localhost/npProject/cat');
   // Site Name
   define('SITENAME', 'CatNews');
   
