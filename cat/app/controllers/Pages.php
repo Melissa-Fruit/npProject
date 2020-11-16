@@ -43,5 +43,14 @@
       $this->view('pages/about', $data);
     }
    
-    
+    public function cat(){
+      //Set Data
+      $data = [
+        'version' => '1.0.0'
+      ];
+
+      // Load about view
+      $this->view('pages/cat', $data);
+    }
+   
   }

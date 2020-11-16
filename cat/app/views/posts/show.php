@@ -1,4 +1,5 @@
 <?php require APPROOT . '/views/inc/header_show.php'; ?>
+
   <a href="<?php echo URLROOT; ?>" class="btn btn-light mb-3"><i class="fa fa-backward" aria-hidden="true"></i> Back</a>
   <br>
   <h1><?php echo $data['post']->title; ?></h1>
@@ -14,4 +15,14 @@
       <input type="submit" class="btn btn-danger" value="Delete">
     </form>
   <?php endif; ?>
+  <div class="image-grid">
+						<a href="#" class="image"><img src="../../public/css/images/cat3.jpg" alt="" /></a>
+						<a href="#" class="image"><img src="../../public/css/images/cat4.jpg" alt="" /></a>
+						<a href="#" class="image"><img src="../../public/css/images/cat5.jpg" alt="" /></a>
+						<a href="#" class="image"><img src="../../public/css/images/cat6.jpg" alt="" /></a>
+						<a href="#" class="image"><img src="../../public/css/images/cat7.jpg" alt="" /></a>
+						<a href="#" class="image"><img src="../../public/css/images/cat11.jpg" alt="" /></a>
+						<a href="#" class="image"><img src="../../public/css/images/cat14.jpg" alt="" /></a>
+						<a href="#" class="image"><img src="../../public/css/images/cat10.jpg" alt="" /></a>
+					</div>
 <?php require APPROOT . '/views/inc/footer.php'; ?>
