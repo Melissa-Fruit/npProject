@@ -1,18 +1,18 @@
 # npProject
 BeCode's npProject
-visit the App: http://catnews.epizy.com/
+## visit the App: http://catnews.epizy.com/
 
 -duration : 4 weeks
 
 - Déploiement :
   
   - self-hosting
-  - ...
+  - infinityfree
   
 - Team challenge : `solo`
 
 
-## Used languages in MVC structure :
+## Used languages and framework in MVC structure :
 * HTML5
 * CCS3
 * PHP OOP
@@ -53,15 +53,16 @@ On top of this mini framework I build CatNews: a social network to share posts a
 
 ### Technologie
 
-**Back :
+
+#### Back :
 
 - PHP OOP
 - MYSQL
 
-**Front :
+#### Front :
 
 - Bootstrap 4 UI 
-- [parts of the retrospect template](https://templated.co/retrospect/)
+- [Parts of retrospect template](https://templated.co/retrospect/)
 
 ## Api
 
@@ -80,6 +81,18 @@ On top of this mini framework I build CatNews: a social network to share posts a
 - [W3schools](https://www.w3schools.com/)
 - [PHP Documentation](https://www.php.net/docs.php)
 - [Object Oriented PHP & MVC](https://www.udemy.com/course/object-oriented-php-mvc/)
+
+
+## Screenshots of the database
+
+#### Database Structure
+![bdd carnews Structure](catBddStructure.png)
+#### users
+![users](catBdd-users.png)
+#### posts
+![posts](catBdd-users.png)
+#### pwd_Resset (for lost password)
+![pwd_Resset](catBdd-pwd_Resset.png)
 
 
 ## Evaluation Criterias
