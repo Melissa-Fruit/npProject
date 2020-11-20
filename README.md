@@ -32,6 +32,8 @@ It's a complete custom MVC (Model View Controller) framework similar to Codeigni
 - A base controller class to load models and views
 - A custom database library using PDO for all models to interact with the database using prepared statements
 
+#### MVC Mini framework structure
+![MVCstructure](img/catMVCstructure.png)
 
 On top of this mini framework I build CatNews: a social network to share posts about cats. This application includes:
 
