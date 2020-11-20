@@ -11,15 +11,6 @@ BeCode's npProject
   
 - Team challenge : `solo`
 
-
-## Used languages and framework in MVC structure :
-* HTML5
-* CCS3
-* PHP OOP
-* Bootstrap 4 UI
-* PHP mailer
-
-
 ## Objectifs
 
 Créate a realistic project in 1 month
@@ -51,8 +42,14 @@ On top of this mini framework I build CatNews: a social network to share posts a
 - Helper functions (flash messaging & redirects)
 - Lost password with PHP mailer
 
-### Technologie
+##Technologie
 
+### Used languages and framework in MVC structure :
+* HTML5
+* CCS3
+* PHP OOP
+* Bootstrap 4 UI
+* PHP mailer
 
 #### Back :
 
@@ -61,7 +58,8 @@ On top of this mini framework I build CatNews: a social network to share posts a
 
 #### Front :
 
-- Bootstrap 4 UI 
+- Bootstrap 4 UI
+- Css3
 - [Parts of retrospect template](https://templated.co/retrospect/)
 
 ## Api
@@ -77,23 +75,53 @@ On top of this mini framework I build CatNews: a social network to share posts a
 ## Présentation (16 novembre)
 
 ## Ressources
-
+- [FreeLodoDesign](https://fr.freelogodesign.org/)
+- [Images from Pixabay](https://pixabay.com/fr/images/search/chat/)
 - [W3schools](https://www.w3schools.com/)
 - [PHP Documentation](https://www.php.net/docs.php)
 - [Object Oriented PHP & MVC](https://www.udemy.com/course/object-oriented-php-mvc/)
 
 
-## Screenshots of the database
+## Screenshots of:
+
+### the database
 
 #### Database Structure
-![bdd carnews Structure](catBddStructure.png)
+![bdd catnews Structure](img/catBddStructure.png)
 #### users
-![users](catBdd-users.png)
+![users](img/catBdd-users.png)
 #### posts
-![posts](catBdd-users.png)
+![posts](img/catBdd-users.png)
 #### pwd_Resset (for lost password)
-![pwd_Resset](catBdd-pwd_Resset.png)
+![pwd_Resset](img/catBdd-pwd_Resset.png)
 
+### Responsive app:
+
+#### Home page DescTop
+![Home page Desctop](img/CatDesc.png)
+#### Home page Tablet
+![Home page Tablet](img/C-catResponsiveIpad.png)
+#### Home page Phone
+![Home page Phone](img/catResponsivePhone.png)
+
+### When logged in:
+
+#### Post page DescTop
+![Home page Desctop](img/catPosts.png)
+
+### Lost Password:
+
+#### Received mail with link
+![catMail.png](img/catMail.png)
+#### Resset form password
+![Home page Tablet](img/catRessetpass.png)
+
+### Api:
+
+#### Weather 
+![Weather](img/catFooter.png)
+#### Mailchimp Newsletter
+![Mailchimp Newsletter](img/catNewsletterMail.png)
 
 ## Evaluation Criterias
 
