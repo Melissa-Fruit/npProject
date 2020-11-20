@@ -1,4 +1,6 @@
 <?php
+require_once("../app/config/config.php");
+require_once("../app/libraries/Database.php");
   class Posts extends Controller{
     public function __construct(){
       if(!isset($_SESSION['user_id'])){

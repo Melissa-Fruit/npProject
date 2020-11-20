@@ -1,4 +1,6 @@
 <?php
+require_once("../app/config/config.php");
+require_once("../app/libraries/Database.php");
   class Post {
     private $db;
     

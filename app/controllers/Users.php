@@ -1,4 +1,6 @@
 <?php
+require_once("../app/config/config.php");
+require_once("../app/libraries/Database.php");
   class Users extends Controller{
     public function __construct(){
       $this->userModel = $this->model('Email');
